@@ -1,3 +1,44 @@
-# APL3_221B172
-This is my first lab of AP LAB 2025
-Downloaded the git bash and ran some commands 
+1. Introduction
+The Hotel Management System (HMS) is designed to automate the process of managing hotel operations, including room reservations, guest check-ins, and billing. This system will streamline operations, improve efficiency, and enhance the guest experience by providing an easy-to-use interface for both staff and customers.
+
+2. Functional Requirements
+2.1. User Management
+Guest Registration: Guests should be able to register their details, including name, contact information, and payment method.
+Staff Management: Admins should be able to add, remove, and update staff roles and permissions (e.g., receptionists, housekeepers, managers).
+2.2. Room Management
+Room Availability: The system should display real-time availability of rooms, including room type, price, and occupancy status.
+Room Reservation: Guests should be able to reserve rooms through the system, with options for check-in and check-out dates.
+Room Assignment: Receptionists can assign rooms to guests, and changes can be made if necessary.
+2.3. Check-In/Check-Out
+Check-In: The system should allow guests to check in by verifying their booking and registering payment.
+Check-Out: The system should calculate the final bill and allow for the guest’s checkout process, including payment and receipt generation.
+2.4. Billing and Payment
+Invoice Generation: Generate invoices for guests based on their stay, including charges for rooms, services (e.g., food, spa), taxes, etc.
+Payment Processing: The system should accept payments via multiple methods (e.g., credit cards, cash, online payments) and handle partial payments if necessary.
+2.5. Reporting
+Financial Reports: Generate reports showing revenue, expenses, and profit over various periods.
+Occupancy Reports: Provide data on room occupancy rates, no-shows, and reservations.
+3. Non-Functional Requirements
+3.1. Usability
+The system should have a user-friendly interface that is easy to navigate for both hotel staff and guests.
+Should support multiple languages (optional depending on target market).
+3.2. Performance
+The system must be capable of handling up to 100 simultaneous users without performance degradation.
+3.3. Availability
+The system should be available 24/7 with a downtime of less than 0.5% annually.
+3.4. Security
+The system should ensure secure handling of personal and payment information, including encryption and secure login mechanisms.
+3.5. Compatibility
+The system should be compatible with modern browsers (Chrome, Firefox, Safari, Edge).
+It should be responsive and work on both desktop and mobile devices.
+4. System Architecture
+Frontend: Web-based user interface built using HTML, CSS, JavaScript.
+Backend: Server-side logic implemented in a language such as Python or Node.js.
+Database: Relational database (e.g., MySQL, PostgreSQL) to store guest details, bookings, payments, etc.
+5. Assumptions and Constraints
+The system assumes reliable internet connectivity for online bookings and payment processing.
+The initial system will be used by a small hotel, scaling may be required for larger enterprises.
+6. Glossary
+Guest: A person who books and stays at the hotel.
+Admin: A user with the highest privileges in the system responsible for overseeing operations.
+Receptionist: A user responsible for checking guests in and out and managing reservations.
